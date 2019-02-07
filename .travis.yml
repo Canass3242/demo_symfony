@@ -12,5 +12,5 @@ env:
  - SYMFONY_DEPRECATIONS_HELPER=weak
 
 install:
-- composer install
+- composer install my_project
 - php bin/phpunit
